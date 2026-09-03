@@ -239,6 +239,26 @@ growthbeemedia/
   - Testing: Verified assets, scripts, CSS tokens, and semantic selectors
   - Documentation: Updated
 
+### 2026-09-03 — Removed Hero Metrics Strip and Added Developer Credit
+- **User Request:**
+  1. Remove Hero Metrics Strip.
+  2. In place of "Keeping marketing simple and approachable.", write "Developing by Atul Sah" with link to `https://atulsah.in`.
+- **Work Completed:**
+  - Removed `<div class="stats-strip">...</div>` from the hero section in `index.html`.
+  - Replaced the footer tagline `<p>Keeping marketing simple and approachable.</p>` with `<p>Developing by <a href="https://atulsah.in" target="_blank" rel="noopener" class="footer-dev-link">Atul Sah</a></p>` across `index.html`, `services.html`, `about.html`, and `contact.html`.
+  - Added `.footer-dev-link` styling to `css/style.css` with yellow brand color and white hover transition.
+- **Files Modified:**
+  - `index.html`
+  - `services.html`
+  - `about.html`
+  - `contact.html`
+  - `css/style.css`
+  - `editing.md`
+- **Verification Status:**
+  - Implementation: Verified
+  - Testing: Verified
+  - Documentation: Updated
+
 ---
 
 ## 12. Pre-Push Security Audit Record (Git Push Security Gate)

@@ -1172,6 +1172,18 @@ p.lead {
   color: var(--gray-2);
 }
 
+.footer-dev-link {
+  color: var(--yellow);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: all var(--transition);
+}
+
+.footer-dev-link:hover {
+  color: var(--white);
+}
+
 /* --------------------------------------------------------------------------
    13. Floating Quick Contact Badge
    -------------------------------------------------------------------------- */
